@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Segoe UI, Roboto, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #111;
+}
+
+#gameCanvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  image-rendering: auto;
+  cursor: crosshair;
+}
+
+#overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+}
